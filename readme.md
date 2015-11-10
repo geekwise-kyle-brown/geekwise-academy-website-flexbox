@@ -13,4 +13,6 @@
 #TODO:
 * layout main page using flexbox
 * do bottom half of main page
-*fix nav
+* fix nav
+* start on the about page
+* finish bottom half of about page 
