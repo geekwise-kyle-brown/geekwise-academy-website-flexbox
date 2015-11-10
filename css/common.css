@@ -29,19 +29,80 @@ nav >a {
     color: black;
 }
 a{
+    display: inline-flex;
     background-color: #ffffff;
     text-decoration: none;
     color: black;
     height: 50px;
     line-height: 50px;
     font-size: .9em;
+    margin: 0 -2px;
+    padding: 0 5px;
 }
+
 a:hover{
-    background-color: #d1a624;
+    background-color: #F9DA0C;
 }
+
+.highlighted{
+    background-color: #F9DA0C;
+}
+
 .image{
     display: flex;
     justify-content: center;
     
     background-color: #ffffff;
+}
+.bewb{
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: white;
+    height: .1rem;
+    width: 40rem;
+    
+    align-self: center;
+    margin-bottom: 1rem
+}
+
+
+section{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.top{
+    flex-direction: column;
+}
+
+#bottom{
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+#b1{
+    border-right: 1px solid white;
+    padding-right: 5rem;
+}
+
+#b2{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+#b3{
+    padding-left: 5rem;
+    border-left: 1px solid white;
+}
+.bot{
+    height: 62px;
+    width: 58px;
 }
