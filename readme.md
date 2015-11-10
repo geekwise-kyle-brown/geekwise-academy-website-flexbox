@@ -12,3 +12,5 @@
 
 #TODO:
 *layout main page using flexbox
+*do bottom half of main page
+*fix nav
