@@ -6,30 +6,38 @@ html, body {
     
     background-color: maroon;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 8%;
-    width: 100%;
+    align-items: center;
     
-    background-color: #ffffff;
+    background-color: white;
 }
-nav{
-    
-    display: flex;
-    justify-content: space-between;
-    
-    width: 30%;
-    height: 70%;
-    border: 2px solid black;
-    
+
+nav >a {
+    text-decoration: none;
+    color: black;
 }
 a{
     background-color: #ffffff;
     text-decoration: none;
     color: black;
-    height: 100%;
+    height: 50px;
+    line-height: 50px;
     font-size: .9em;
+}
+a:hover{
+    background-color: #d1a624;
 }
 .image{
     display: flex;
